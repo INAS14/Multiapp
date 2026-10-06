@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: linear-gradient(135deg, #ff9966, #ff5e62);
+            min-height: 100vh;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            padding: 50px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 25px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .price {
+            color: #ff5e62;
+            font-size: 22px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>🛍️ Products</h1>
+        <p>Explore our products</p>
+    </div>
+
+    <div class="products">
+
+        <div class="card">
+            <h2>💻 Laptop</h2>
+            <p>High-performance laptop</p>
+            <p class="price">₹45,000</p>
+        </div>
+
+        <div class="card">
+            <h2>📱 Smartphone</h2>
+            <p>Latest smartphone</p>
+            <p class="price">₹25,000</p>
+        </div>
+
+        <div class="card">
+            <h2>🎧 Headphones</h2>
+            <p>Wireless headphones</p>
+            <p class="price">₹2,500</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

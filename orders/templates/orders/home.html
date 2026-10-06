@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Orders</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: linear-gradient(135deg, #11998e, #38ef7d);
+            min-height: 100vh;
+        }
+
+        .header {
+            text-align: center;
+            padding: 50px;
+            color: white;
+        }
+
+        .orders {
+            width: 90%;
+            max-width: 850px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .status {
+            color: #11998e;
+            font-weight: bold;
+        }
+
+        button {
+            background: #11998e;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>📦 My Orders</h1>
+        <p>Track and manage your recent orders</p>
+    </div>
+
+    <div class="orders">
+
+        <div class="card">
+            <h2>Order #1001</h2>
+            <h3>💻 Laptop</h3>
+            <p>Price: ₹45,000</p>
+            <p>Order Date: 06 October 2026</p>
+            <p class="status">✓ Delivered</p>
+            <button>View Order</button>
+        </div>
+
+        <div class="card">
+            <h2>Order #1002</h2>
+            <h3>🎧 Wireless Headphones</h3>
+            <p>Price: ₹2,500</p>
+            <p>Order Date: 05 October 2026</p>
+            <p class="status">🚚 Shipped</p>
+            <button>Track Order</button>
+        </div>
+
+        <div class="card">
+            <h2>Order #1003</h2>
+            <h3>📱 Smartphone</h3>
+            <p>Price: ₹25,000</p>
+            <p>Order Date: 04 October 2026</p>
+            <p class="status">📦 Processing</p>
+            <button>View Details</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
